@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Command-based Animation</title>
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+</head>
+<body>
+
+  <div id="box"></div>
+
+  <form id="commandForm">
+    <input type="text" id="commandInput" placeholder="e.g. rotate, move, red, rounded, reset"/>
+    <button type="submit">Run</button>
+    <button type="button" id="toggleHelp" title="Show available commands">
+      <i class="fas fa-question-circle"></i>
+    </button>
+  </form>
+
+  <div id="helpBox" class="hidden">
+    <strong>Available commands:</strong>
+    <ul id="commandList">
+      <li class="command-item">rotate</li>
+      <li class="command-item">move</li>
+      <li class="command-item">red / green</li>
+      <li class="command-item">rounded</li>
+      <li class="command-item">reset</li>
+    </ul>
+  </div>
+
+  <script src="assets/js/script.js"></script>
+
+</body>
+</html>
