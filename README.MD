@@ -46,4 +46,4 @@ This is a simple web project that allows users to control the animation and styl
 
 ---
 
-## https://ahra-web.github.io/BoxAnimator/
+https://ahra-web.github.io/BoxAnimator/
